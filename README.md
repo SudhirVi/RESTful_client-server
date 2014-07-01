@@ -25,6 +25,9 @@ e.g.
 
 http://restful_client-server/book/RESTful/2014
 
+These data is taken by a client (model) that interfaces with Google Books APIs and returns the data like a database to make "the game" a bit more exciting.
+
+
 ### Note
 
 I have purposely left out API Name and API Version.
