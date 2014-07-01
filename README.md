@@ -14,7 +14,7 @@ I've created my API based on the following three parameters to show that you can
 http://restful_client-server/{category}/{keyword}/{pub_year}
 
 
-e.g.
+where
 
 
 {category} only 'book' is available
@@ -22,6 +22,8 @@ e.g.
 {keyword} any string as keyword
 
 {pub_year} published year 0000 (give me at least 4 digits.. :) )
+
+e.g.
 
 http://restful_client-server/book/RESTful/2014
 
