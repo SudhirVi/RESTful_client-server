@@ -3,7 +3,7 @@ RESTful SOA client-server
 
 ### Objective
 
-Service Oriented Architecture created from scratch using the MVC design pattern.
+Service Oriented Architecture created from scratch using the MVC paradigm.
 
 The data is read from the Google Books API as database.
 
