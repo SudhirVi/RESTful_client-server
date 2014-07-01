@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 RESTful SOA client-server
 ===============================
 
@@ -33,9 +32,3 @@ I have purposely left out API Name and API Version.
 It's just matter of organising the APIs in a real context and adapting the controller to manage these parameters.
 
 This is my first practical approach to PHPUnit for unit testing.
-=======
-RESTful_client-server
-=====================
-
-RESTful Service Oriented Architecture created from scratch using the MVC design pattern.
->>>>>>> e39c75c94d85c64928b067ff15ef1f4924f4b86a
