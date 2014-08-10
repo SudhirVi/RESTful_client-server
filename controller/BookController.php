@@ -8,7 +8,9 @@ class BookController extends MainController
 {
 
 	/**
-	* Manages all the GET requests
+	* Manages all the GET requests: based on the Object passed as parameter
+	* it creates an instnce of the GoogleAPIsClientModel Model and calls the right methods to get
+	* as result the requested data.
 	*
  	* @param Request $request - Request object passed as parameter
  	* @return Object (or Array) $data - response data
