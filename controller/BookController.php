@@ -19,13 +19,13 @@ class BookController extends MainController
 	{
 		$data = array();
 
-		if (isset($request->urlElements[2]) AND ctype_alnum($request->urlElements[2])) {
+		if (isset($request->urlElements[2]) && ctype_alnum($request->urlElements[2])) {
 
 			$keyword = $request->urlElements[2];
 
 			$gapi = new GoogleAPIsClientModel($keyword);
 
-			if (isset($request->urlElements[3]) AND $request->urlElements[3] != '') {
+			if (isset($request->urlElements[3]) && $request->urlElements[3] != '') {
 
 				if (ctype_digit($request->urlElements[3])) {
 					$gapi->filterByYear($request->urlElements[3]);
