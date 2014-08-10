@@ -140,7 +140,7 @@ class GoogleAPIsClientModel
     {
         $result = $this->dataObject;
 
-        if(is_object($this->dataObject) and property_exists($this->dataObject, 'items'))
+        if(is_object($this->dataObject) && property_exists($this->dataObject, 'items'))
             $result = (array)$this->objectToArray($this->dataObject->items);
         else{
             $result = (array)$this->objectToArray($this->dataObject);
