@@ -56,14 +56,6 @@ if ($request->valid) {
 
         if (class_exists($view_name)) {
             $view = new $view_name();
-            /*
-            echo '<pre>';
-                var_dump(is_object($result));
-                var_dump($result);
-                //var_dump(is_array($result['message']));
-            echo '</pre>';
-            die();
-            */
             $view->render($result);
         }
     }
