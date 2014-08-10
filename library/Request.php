@@ -42,7 +42,7 @@ class Request
     */
 	public function __construct()
 	{
-        if (isset($_SERVER['PATH_INFO']) AND trim($_SERVER['PATH_INFO']) != '/') {
+        if (isset($_SERVER['PATH_INFO']) && trim($_SERVER['PATH_INFO']) != '/') {
             $this->valid = true;
         } else {
             return false;
